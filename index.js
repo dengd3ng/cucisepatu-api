@@ -10,7 +10,7 @@ app.use(express.json());
 
 
 app.get('/', (req, res) => {
-  res.send('API Layanan Cuci Sepatu by [Nama Anda]');
+  res.send('API Layanan Cuci Sepatu by Denzel);
 });
 
 app.post('/items', async (req, res) => {
@@ -128,5 +128,6 @@ app.delete('/items/:id', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server berjalan di http://localhost:${port}`);
 });
+
 
 module.exports = app;
