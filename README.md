@@ -155,4 +155,5 @@ Menghapus data sepatu (misal: jika sudah diambil pelanggan).
 
 API ini telah di-deploy dan dapat diakses publik melalui link berikut:
 
-**[MASUKKAN LINK VERCEL ANDA DI SINI SETELAH DEPLOY]**
+
+(https://cucisepatu-api.vercel.app/)
