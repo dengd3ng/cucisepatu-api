@@ -128,28 +128,6 @@ Menghapus data sepatu (misal: jika sudah diambil pelanggan).
 -   **Endpoint:** `DELETE /items/1`
 -   **Response:** `204 No Content`
 
-## ⚙️ Instalasi & Menjalankan Lokal
-
-1.  Clone repository ini:
-    ```bash
-    git clone [https://github.com/](https://github.com/)[NAMA_AKUN_GITHUB]/[NAMA_REPO].git
-    cd [NAMA_REPO]
-    ```
-2.  Install dependensi:
-    ```bash
-    npm install
-    ```
-3.  Buat file `.env` di root proyek.
-4.  Isi file `.env` dengan kredensial Supabase Anda:
-    ```env
-    SUPABASE_URL=https://<your-project-id>.supabase.co
-    SUPABASE_ANON_KEY=<your-anon-key>
-    ```
-5.  Jalankan server (mode development):
-    ```bash
-    node index.js
-    ```
-6.  API akan berjalan di `http://localhost:3000`.
 
 ## 🌐 Link Deploy Vercel
 
@@ -157,3 +135,4 @@ API ini telah di-deploy dan dapat diakses publik melalui link berikut:
 
 
 (https://cucisepatu-api.vercel.app/)
+
