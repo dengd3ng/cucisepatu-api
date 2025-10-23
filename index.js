@@ -10,7 +10,7 @@ app.use(express.json());
 
 
 app.get('/', (req, res) => {
-  res.send('API Layanan Cuci Sepatu by Denzel);
+  res.send('API Layanan Cuci Sepatu by Denzel');
 });
 
 app.post('/items', async (req, res) => {
@@ -131,3 +131,4 @@ app.listen(port, () => {
 
 
 module.exports = app;
+
